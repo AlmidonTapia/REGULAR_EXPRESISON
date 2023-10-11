@@ -1,7 +1,6 @@
 function validarCorreo(){
     const regex = /[a-zA-Z0-9\.-_]+@[a-zA-Z0-9\.-_]+\..{1,8}/gmi;
     const ArrayCorreos =[];
-    
     while(true){
     const str = prompt("Ingrese una direccion de correo", regex);
     if(regex.test(str)){
