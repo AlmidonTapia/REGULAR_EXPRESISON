@@ -4,7 +4,6 @@ function validarCorreoElectronico(email) {
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return emailRegex.test(email);
   }
-  
   // Ejemplo de uso:
   const email = prompt("Ingrese sus correo electronico: ");
   if (validarCorreoElectronico(email)) {
