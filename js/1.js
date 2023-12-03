@@ -1,4 +1,4 @@
-document.getElementById("btnValidar").addEventListener("click",validarcorreo);
+document.getElementById("btnValidar").addEventListener("click",validarCorreo);
 
 function validarCorreo(){
     const regex =   /[a-zA-z0-9\.-_]+@[a-zA-z0-9\.-_]+\..{1,8}/gmi;
