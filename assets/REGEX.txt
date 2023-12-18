@@ -1,0 +1,38 @@
+REGEX
+ significa expresión regular. Es una cadena de texto que le permite crear patrones que ayudan a unir, localizar y administrar texto.
+
+Es una técnica que se desarrolló en la informática teórica y la teoría del lenguaje formal. Para un usuario o programador de computadoras, es una forma de expresar cómo un programa de computadora debe buscar un patrón específico en el texto y luego qué debe hacer el programa cuando encuentre cada coincidencia de patrón. El concepto surgió en la década de 1950, cuando el matemático estadounidense Stephen Cole Kleene formalizó la descripción de un lenguaje regular. El concepto se volvió de uso común con las utilidades de procesamiento de textos de Unix. Desde la década de 1980, existen diferentes sintaxis para escribir expresiones regulares.
+
+Se utiliza en todos los lenguajes de programación como C++, Java y Python. Perl es un gran ejemplo de lenguaje de programación que utiliza expresiones regulares. Sin embargo, es sólo uno de los muchos lugares donde puedes encontrar expresiones regulares. Las expresiones regulares también se pueden utilizar desde la línea de comandos y en editores de texto para buscar texto dentro de un archivo.
+
+Las expresiones regulares se utilizan en motores de búsqueda, buscar y reemplazar cuadros de diálogo de procesadores de texto y editores de texto.
+
+============================================
+|La importancia de Regex en la programación|
+============================================
+
+Una expresión regular, a menudo denominada patrón, es una expresión que se utiliza para especificar un conjunto de cadenas necesarias para un propósito particular. Una forma sencilla de especificar un conjunto finito de cadenas es enumerar sus elementos o miembros. A menudo existen formas más concisas de especificar el conjunto de cadenas deseado.
+
+La coincidencia de patrones es muy importante mientras trabajamos para validar la entrada de texto. Aquí la expresión regular juega un papel importante. Los patrones son muy flexibles y nos brindan una manera de crear nuestro propio patrón para validar la entrada.
+
+Las expresiones regulares en este sentido pueden expresar lenguajes regulares, exactamente la clase de lenguajes aceptados por los autómatas finitos deterministas. Sin embargo, existe una diferencia significativa en la compacidad. Algunas clases de lenguajes regulares sólo pueden describirse mediante autómatas finitos deterministas cuyo tamaño crece exponencialmente en el tamaño de las expresiones regulares equivalentes más cortas.
+
+"Expresión regular" Los motores implementan características que no pueden describirse mediante expresiones regulares en el sentido de la teoría del lenguaje formal.
+
+Hay más de una forma de construir una expresión regular para lograr los resultados.
+
+Es posible escribir un algoritmo que, para dos expresiones regulares dadas, decida si los lenguajes descritos son iguales; el algoritmo reduce cada expresión a una máquina de estados finitos determinista mínima y determina si son isomorfas (equivalentes).
+
+Las leyes algebraicas para expresiones regulares se pueden obtener utilizando un método de Gischer que se explica mejor.
+
+La redundancia se puede eliminar utilizando la estrella de Kleene y la unión de conjuntos para encontrar un subconjunto interesante de expresiones regulares que aún sean completamente expresivas, pero tal vez se pueda restringir su uso.
+
+Muchas características que se encuentran en prácticamente todas las bibliotecas de expresiones regulares modernas proporcionan un poder expresivo que supera con creces los lenguajes regulares. Por ejemplo, muchas implementaciones permiten agrupar subexpresiones con paréntesis y recuperar el valor que coinciden en la misma expresión (referencias inversas). Esto significa que, entre otras cosas, un patrón puede coincidir con cadenas de palabras repetidas.
+
+Muchas herramientas, bibliotecas y motores que proporcionan este tipo de construcciones todavía utilizan el término expresión regular para sus patrones. Esto ha llevado a una nomenclatura en la que el término expresión regular tiene diferentes significados en la teoría del lenguaje formal y la coincidencia de patrones. Por esta razón, algunas personas han empezado a utilizar el término expresión regular, expresión regular o patrón simple para describir este último.
+
+Muchos editores de texto lo admiten. Puedes hacer reemplazos con él. Permite un punto de configuración donde puede cambiar algún comportamiento al que accede el código pero que no forma parte de los bits compilados. Hay otros lugares donde puede hacer eso, como archivos de configuración, pero el uso de expresiones regulares en algunos lugares aquí le permitirá potencialmente realizar una tarea que no había anticipado o para la que no había escrito código sin cambiar los archivos binarios.
+
+
+Regex se utiliza en Google Analytics en la coincidencia de URL para respaldar la búsqueda y el reemplazo en los editores más populares como Sublime, Notepad++, Brackets, Google Docs y Microsoft Word.
+
